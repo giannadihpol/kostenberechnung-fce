@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    border:0px;
+    font-family: 'Source Sans Pro', 'Trebuchet MS', Arial;
+    font-weight: bold;
+}
+
+img{
+    background-size: cover;
+    width:100%;
+    height:auto;
+    
+}
+
+#info-bild{
+    width:400px;
+    height: 435px;
+    position:absolute;
+    top:250px;
+    left: 50%;
+    z-index:10000;
+    visibility: hidden;
+}
+.main{
+    position: relative;
+    width:100%;
+    height:100%;
+    
+    
+}
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: hsl(0, 0%, 96%);
+    position: absolute;
+    top:100px;
+    right: 24%;
+}
+
+.header{
+    background-color: #4D657C;
+    width: 1000px;
+    height:60px;
+   
+}
+
+#header-ueberschrift{
+   vertical-align: middle;
+   color: whitesmoke;
+   font-size: 30px;
+   text-align: center;
+   position: absolute;
+   top:12px;
+   right:215px;
+}
+
+.container a > img{
+    height: 25px;
+    width:auto;
+    float:right;
+    margin-top: 16px;
+    margin-right:10px;
+}
+
+label{
+    color:#123250;
+    display: block;
+}
+
+
+[class*="col-"]{
+    float:left;
+    height: 83px;
+    width:930px;
+    margin-left: 70px;
+   
+}
+
+.col-9{
+    background-color: #4D657C;
+    margin-left: 0px;
+    width:1000px; 
+}
+
+.col-1 label {
+    color: #123250;
+    font-size: 24px;
+    position:relative;
+    top: 34.25px; 
+}
+
+[class*="row-"]{
+    float:left;
+    width:310px; 
+}
+
+.preis{
+    border-color: #37C391;
+    box-shadow:  none;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    text-align: right;
+}
+
+.dropdown{
+    width:265px;
+    color: #123250;
+    height:21px;
+}
+
+.col-4 label{
+    color: #123250;
+    font-size: 24px;
+    position: relative;
+    top:30px;
+}
+
+.dropdown-menge{
+    width: 120px;
+    color: #123250;
+  
+}
+
+input{
+    width: 112px;
+    color: #123250;
+}
+.dropdown-menge{
+    height:21px;
+}
+
+button{
+    background-color: #37C391;
+    width:250px;
+    border:none;
+    height: 60px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10rem;
+    box-shadow:3px 3px 4px #8CA0B2;
+	text-shadow:1px 1px 2px #6E91B2;
+}
+
+ button:hover{
+     background-color:#31a57c;
+ }
+
+ #gesamtkosten{
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top:29.5px;
+ }
+
+ .col-9 label{
+    color: whitesmoke;
+    margin-top:21.5px;
+ }
+
+ .col-9 .row-1{
+     width:380px;
+ }
+ #auflistung{
+    visibility: hidden;
+ }
+
+ .col-9 input{
+     background-color: whitesmoke;
+     border:#37C391;
+     width:150px;
+ }
+
+i{
+    width:20px;
+    margin-left:3px;
+    color: #4D657C;
+}
+
+#preis-pro-monat, #preis-pro-tag{
+    text-align: right;
+}
+
+ @media (max-width: 1024px){
+    .container{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+    }
+
+    img{
+        width:0;
+        height:0;
+    }
+
+}
+
+
+
+
+
+
+
+
