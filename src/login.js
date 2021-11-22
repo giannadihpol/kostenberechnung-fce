@@ -1,14 +1,14 @@
 const button = document.querySelector("#button");
 
 
-button.addEventListener("click",async (evt) => {
+button.addEventListener("click", async (evt) => {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    if(username==="admin"&&password==="Projektarbeit-2"){
-        window.location.href = 'index2.html';
+    if (username === "admin" && password === "Projektarbeit-2") {
+        window.location.href = 'main.html';
     }
-    else{
+    else {
         alert("Login fehlerhaft");
-        
+
     }
 })
